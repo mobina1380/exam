@@ -1,0 +1,45 @@
+.card {
+  display: flex;
+  border: 1px solid #80808024;
+  padding: 3rem;
+  margin: 2rem;
+  border-radius: 9px;
+  box-shadow: 2px 3px 13px #88888829;
+}
+.card__info {
+    flex: 3;
+    line-height: 1.2;
+    /* font-size: 0.9rem; */
+    overflow: hidden;
+    text-align: justify;
+    margin-right: 3rem;
+}
+.card__info a {
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+
+.card__info a:hover {
+  text-decoration: underline;
+}
+
+.card__info p {
+  height: 100px;
+  /* white-space: nowrap; */
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 100%;
+}
+
+.card__img{
+    flex: 1;
+}
+.styleimg{
+  width: 300px;
+  height: 300px;
+}
+.imgfavion{
+padding-left: 5px;
+  width: 20px;
+  height: 20px;
+}
